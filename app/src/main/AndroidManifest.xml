@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".rxandroid.RxLatihan2">
+        <activity android:name="udinsi.dev.wallpaper.Wallpaper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,8 @@
         <!-- <activity android:name=".uiux.Ui" /> -->
         <activity android:name=".uiux.Ux" />
         <activity android:name=".uiux.Ui" />
-        <activity android:name=".rxandroid.RxLatihan"></activity>
+        <activity android:name=".rxandroid.RxLatihan" />
+        <activity android:name=".rxandroid.RxLatihan2" />
     </application>
 
 </manifest>
