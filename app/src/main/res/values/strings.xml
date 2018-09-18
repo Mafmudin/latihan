@@ -5,6 +5,10 @@
     <string name="search">Search</string>
     <string name="sort">Sort</string>
 
+    <string name="impossible_game">Impossible Game</string>
+    <!--Replace with your own ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
     <string-array name="catList">
         <item>Science</item>
         <item>Social</item>

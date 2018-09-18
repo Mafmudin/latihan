@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="udinsi.dev.bookcollection">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".BaseApplication"
@@ -23,6 +24,10 @@
         <activity android:name=".uiux.Ui" />
         <activity android:name=".rxandroid.RxLatihan" />
         <activity android:name=".rxandroid.RxLatihan2" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-3241623998231159~9002598457"
+            android:value="ca-app-pub-3241623998231159/7164393865"/>
     </application>
 
 </manifest>
